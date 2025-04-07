@@ -7,4 +7,5 @@
  Assignment_2: In the Task 1 of this assignment I have used the % operator to check if the number gives remainder as 0 , and with the use of conditonal if else statement I have driven out the desired output.
  In Task 2 I have used a for loop to find out the sum of 1 to 50 numbers.
 
- 
+ Assignent_3/; In the Task 1 of this assignment I have defined a function factorial and in the parameters I have given n, I used a basic logical or operator for 0 and 1 condition and for the other part I used n*factorial(n-1), it calls the factorial function until it becomes 0. Then I printed it and found out the results.
+In Task 2 I used math library which has these three function that are math.sqrt, math.sin, math.log , with the help of this predefined functions I generated the desired output.
