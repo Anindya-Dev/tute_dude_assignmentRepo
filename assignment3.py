@@ -5,14 +5,14 @@
 # 2.   Returns the calculated factorial.
 # 3.   Calls the function with a sample number and prints the output.
 
-# n=int(input("Enter a number: "))
-# def factorial(n):
-#     if (n==0 or n==1):
-#         return 1
-#     else:
-#         return n*factorial(n-1)
-# factorial(n)
-# print(f"Factorial of {n} is : {factorial(n)}")
+n=int(input("Enter a number: "))
+def factorial(n):
+    if (n==0 or n==1):
+        return 1
+    else:
+        return n*factorial(n-1)
+factorial(n)
+print(f"Factorial of {n} is : {factorial(n)}") 
 
 # Task 2: Using the Math Module for Calculations
  
