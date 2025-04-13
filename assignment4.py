@@ -4,13 +4,13 @@
 # 2.   Prints its content line by line.
 # 3.   Handles errors gracefully if the file does not exist.
 
-# try:
-#     with open('sample.txt', 'r') as file:
-#         print("Reading file content:")
-#         for i, line in enumerate(file, 1):
-#             print(f"Line {i}: {line.strip()}")
-# except FileNotFoundError:
-#     print("Error: The file 'sample.txt' was not found.")
+try:
+    with open('sample.txt', 'r') as file:
+        print("Reading file content:")
+        for i, line in enumerate(file, 1):
+            print(f"Line {i}: {line.strip()}")
+except FileNotFoundError:
+    print("Error: The file 'sample.txt' was not found.")
 
 #  Task 2: Write and Append Data to a File
 # Problem Statement: Write a Python program that:
